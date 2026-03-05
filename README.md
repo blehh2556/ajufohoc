@@ -1,4 +1,4 @@
-# How to publish your Resume Using Markdown and Pelican
+# How to publish your Resume Using Markdown, Github and Pelican
 
 ## Statement of Purpose
 The purpose of this document is to explain how to host a resume on a forge that offers static web hosting. 
