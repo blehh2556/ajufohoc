@@ -2,50 +2,63 @@
 # How to publish your Resume Using Markdown, Github and Pelican
 
 ## Statement of Purpose
-The purpose of this document is to explain how you can host a resume on a forge that offers static web hosting. I'll go through it step by step and refer to some of Andrew Etter's Principles on modern technical writing to explain why to publish your resume using this method
+This document serves as a comprehensive guide for you, Marvin McLaren, to help you publish a resume as a static website using tools like Markdown(a lightweight markup language), Pelican(a static site generator) and Github(a forge). 
 
-
-### In this README you'll find: 
-
-#CHECK FORMATTING LISTS IN markdown 
-1. How to Install the tools you need to host your website. Including VS Code, and Pelican 
-2. How to set up the tools you will need to complete this such as 
-3. 
-
-
-
-
+By following these intructions, you will learn to separate your content (the resume) from its presentation (the website), ensuring your professional data is secure, portable, and easily updated.
 
 ### Pre-Requisites
-
-To complete this you will need a windows computer with the operating system (he won't know operating system or will  he?)
-This should indicate what resources the
-reader needs in order to carry out the instructions.
-
-## Phase 1: Setting Up your Tech 
-
-A static website is and we need a forge to xyz
-A forge is 
-
-### How to Use Markdown 
-We will use markdown through the App VS code, wich is an app that kets you use different . We will be using something called Github flavoured markdown which is a set of instructions that works specifically for our chosen forge.
-1. Go to this site with this link and download VS code 
-2. 
-3. In the top left corner there's an 
+To successfully host your resume you need: 
+1. A computer that uses a **Windows 10** system and above. 
+2. A **Github** Account-  you can create an account or log in using this [Link](https://github.com/signup)
+3. **Visual Studio Code** - you can install the app with this [Link](https://code.visualstudio.com/download). Make sure to click on the button that says *Windows*.
+4. **Git installed** - you can install it by following the prompts at this [Link](https://git-scm.com/install/windows)
+5. **Python 3.10+** - you can install it by following the prompts at this [Link](https://git-scm.com/install/windows)
+6. **Familiarity** with lightweight markup languages, distributed version control systems, statig generators and a forge via **Andrew Etter's** book, *Modern Technical Writing*
 
 
-### 
 
-## How to format Your Resume 
+## Section 1: Setting up your Project Structure
 
-You're probably used to working on Resume's through platforms like microsoft word or google docs but to host your website a good (need proof from etter why this is a good idea) choice is using markdown. In this section I'll work you through some common choices for working on yoour resume as well as go through some of the syntax you will need. 
+Before we begin to write markdown code we need to create a structure that will hold all our work. 
 
-1. you need to go through markdown you can either install an app to do that or have an online markdown editor. In this explanation we'll work witht he app visual studio code 
+1. Open File explorer and go to your root directory in 
 
-2. **To install Visual Studio code:**
+## Section 2: Formatting Your Resume in Markdown
+**NEED AN ETTER PRACTICAL PRINCIPLE - ASSIGNMENT 
 
-    a. Head to this link 
+## Section 3: Setting aVirtual Environment 
+But before we can work with Python and Pelican we need to set up a virtual environment using these steps: 
 
-    b. 
+1. Open Command Prompt. This is your terminal** Your directory should look similar to this `C:\Users\chiny> `
+2. Type in this code and press enter :<br>`python -m venv .venv `
+3. Next, type in this code and press enter :<br> `.venv\Scripts\activate ` 
+4. You will know you're successful if `(.venv)` is now infront of your directory like this <br>` (.venv) C:\Users\chiny>`
+5. Now your virtual environment is set up. Do not exit your command prompt window and proceed to the next steps. 
+
+## Section 4: Setting Up Pelican
+
+To transform your text into a website, you need an engine. We will use Python. Python allows us to run the Pelican generator, which handles all the heavy lifting of web design for you. 
+
+Since Python is already installed on your computer and we have set up your virtual environment we can proceed with using Pelican:
+
+1. In your opened command prompt type in this code to install oelican and markdown :<br> ` python -m pip install "pelican[markdown]"
+`
+2.  use pelican set up in slides 
 
 
+## Section 5: Publishing your Webpage
+
+
+Pushing to github 
+Install that thing 
+Then 
+
+will ask for git authentication when you 
+
+
+
+In a traditional word processor, if you save over a file or a document gets corrupted, that work may be lost forever. However, by using GitHub, every time you "push" an update to your resume, the Forge creates a permanent snapshot of that version. If you make a mistake or don't like a formatting change, you can instantly retrieve a previous version. This ensures that your professional documentation is secure, versioned, and publicly accessible from any browser in the world.
+
+
+Credit 
+Peter Vu helped me trouble shoot virtual environments and pelican for windows 
