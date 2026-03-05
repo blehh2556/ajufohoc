@@ -1,3 +1,9 @@
+Title: My Professional Resume
+Date: 2026-03-05
+Category: Resume
+Save_as: index.html
+Status: published
+
 # Chinyere A. Ajufoh-Obi
 
 Canadian Citizen | ajufohoc@myumanitoba.ca | (431)-293-2031 | [LinkedIn](https://www.linkedin.com/in/chinyere-ajufoh-obi/)

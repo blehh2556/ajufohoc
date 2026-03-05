@@ -1,20 +1,40 @@
+
 # How to publish your Resume Using Markdown, Github and Pelican
 
 ## Statement of Purpose
-The purpose of this document is to explain how to host a resume on a forge that offers static web hosting. 
+The purpose of this document is to explain how you can host a resume on a forge that offers static web hosting. I'll go through it step by step and refer to some of Andrew Etter's Principles on modern technical writing to explain why to publish your resume using this method
 
-A **forge** is a web-based platform for collaboratively developing software and we'll be using Github as our forge to host a stic website.
 
-**Static web** hosting
+### In this README you'll find: 
 
-Astatement of purpose. This should indicate what the README
-describes and who it is for.
+#CHECK FORMATTING LISTS IN markdown 
+1. How to Install the tools you need to host your website. Including VS Code, and Pelican 
+2. How to set up the tools you will need to complete this such as 
+3. 
 
-## Pre-Requisites
+
+
+
+
+### Pre-Requisites
 
 To complete this you will need a windows computer with the operating system (he won't know operating system or will  he?)
 This should indicate what resources the
 reader needs in order to carry out the instructions.
+
+## Phase 1: Setting Up your Tech 
+
+A static website is and we need a forge to xyz
+A forge is 
+
+### How to Use Markdown 
+We will use markdown through the App VS code, wich is an app that kets you use different . We will be using something called Github flavoured markdown which is a set of instructions that works specifically for our chosen forge.
+1. Go to this site with this link and download VS code 
+2. 
+3. In the top left corner there's an 
+
+
+### 
 
 ## How to format Your Resume 
 
@@ -27,3 +47,5 @@ You're probably used to working on Resume's through platforms like microsoft wor
     a. Head to this link 
 
     b. 
+
+

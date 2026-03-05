@@ -1,7 +1,6 @@
 AUTHOR = 'Chinyere Ajufoh-Obi'
 SITENAME = 'Deploying Static Websites using Markdown, Github and Pelican'
-SITEURL = ""
-
+SITEURL = "https://blehh2556.github.io/ajufohoc"
 PATH = "content"
 
 TIMEZONE = 'America/Chicago'
@@ -15,13 +14,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
-)
 
 # Social widget
 SOCIAL = (
