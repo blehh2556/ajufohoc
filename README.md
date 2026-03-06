@@ -12,8 +12,8 @@ To successfully host your resume you need:
 2. A **Github** Account-  Create one with this link[Link](https://github.com/signup)
 3. **Visual Studio Code** - install [here](https://code.visualstudio.com/download). Make sure to click on the button that says *Windows*.
 4. **Git for Windows** - install [here](https://git-scm.com/install/windows)
-5. **Python 3.10+** - Install [here](https://git-scm.com/install/windows).**critical** Check the box "Add Python to PATH" during installation.
-6. Github Desktop Installed - **ADD THE LINKS**
+5. **Python 3.10+** - Install [here](https://git-scm.com/install/windows). **CRITICAL** Check the box "Add Python to PATH" during installation.
+6. Github Desktop - Install [here](https://desktop.github.com/download/).
 7. **Background Knowledge**: Familiarity with the concepts in Andrew Etter's book, Modern Technical Writing, specifically regarding static generators, markdown and forges.
 
 
