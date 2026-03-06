@@ -86,6 +86,8 @@ Save_as: index.html`
 
 8. On the right hand side click the blue button that says **push to origin** to send it to github online.
 
+**Note**: As you make changes, Andrew Etter recommends you push to your forge frequently to help you catch problems.
+
 ## Section 3: Setting up a Virtual Environment 
 But before we can work with Python and Pelican we need to set up a virtual environment using these steps: 
 
@@ -138,17 +140,28 @@ Congratulations Marvin! Through this process, you have transitioned from a tradi
 
 **You can explore more resources on the topic below:**
 
-### Frequently Asked Questions 
+1. Learn more about the github flavoured markdown Andrew Etter breifly mentioned in his book [here](https://github.github.com/gfm/#list-items).
+
+2. Learn more about github and how to manage repositories  [here](https://learn.github.com/skills).
+
+3. Learn about this other lightweight markup language, [Ascii](https://docs.asciidoctor.org/asciidoc/latest/).
+
+4. Learn how to use Rsync with this [video](https://youtu.be/Pygr_TpZRpM?si=-xrqRa7-zi5ce6vr).
+
+
+## Frequently Asked Questions 
 
 **Q: Why is Markdown Better than writing raw HTML?**
 
-A: According to Andrew Etter in his book *Modern Technical Writing*, you should use Markdown 
 
-**Q: Why is Markdown Better than writing raw HTML?**
+A: Markdown is better than raw HTML because Markdown is easier to read in raw form compared to HTML and it makes it easier for people to understand and contribute to documentation.
 
+**Q: I changed the Markdown version of my resume, so why don't I see the canges when I refresh the website in my browser?**
+
+A: This happens because even though you've updated the file locally you haven't told Pelican to implement these changes in your output files. To do this you must re-do the steps in section 5.
 
 ### Credits
 
 - Chinyere Ajufoh-Obi - Author 
 
-- Chika Ngele - Class Groupmate
+- Chika Ngene - Class Groupmate
