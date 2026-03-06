@@ -36,11 +36,13 @@ Before we begin to write markdown code, we need to create a structure that will 
 
 4. Name your repository (e.g., ajufohoc).
 
-5. Navigate to choose visibility and set it to Public. This is so Pelican can access it later.
+5. Navigate to choose visibility. 
 
-6. Check the box that says *"Add a README file."* 
+6. Set visibility to Public. (This is so Pelican can access it later).
 
-7. Scroll down and click "Create repository."
+7. Check the box that says *"Add a README file."* 
+
+8. Click "Create repository."
 
 **Part B: Connecting your online repository to your local machine**
 
@@ -65,7 +67,7 @@ After completing part A, you have created a new repository. On the screen, you s
 
 ## Section 2: Formatting Your Resume in Markdown
 
-Now that your tech stack is ready, you can draft your resume. Following Etter’s advice, we use Markdown to define what the information is (a header, a list, a link) rather than how it looks (font size, colour, margins). We also opt for Markdown over Microsoft Word because like Etter explains, it gets complicated to deploy websites using Word, as word and pdf aren't as effective for multiple changes and living documentation. 
+Now that your tech is set up, you can draft your resume. Following Etter’s advice, we use Markdown to define what the information is (a header, a list, a link) rather than how it looks (font size, colour, margins). We also opt for Markdown over Microsoft Word because like Etter explains, it gets complicated to deploy websites using Word, as word and pdf aren't as effective for multiple changes and living documentation. 
 
 1. Open VS Code. 
 
@@ -118,7 +120,7 @@ Before we can work with Python and Pelican, we need to set up a virtual environm
 
 ## Section 4: Setting Up Pelican
 
-To transform your text into a website, you need an engine. We will use Python. Python allows us to run the Pelican generator, which handles all the heavy lifting of web design for you, allowing you to turn simple lightweight markup language to a website. 
+To transform your text into a website, you need an engine. We will use Python. Python allows us to run the Pelican generator, which handles all the heavy lifting of web design for you, allowing you to turn simple lightweight markup language to a website, just like Andrew Etter advised. 
 
 1. Type in this code to install pelican and markdown in command prompt:<br> ` python -m pip install "pelican[markdown]"`
 
@@ -139,23 +141,27 @@ Now that Pelican is set up we can publish our webpage.
 
 1. Type `pelican content` 
 
-2. Press enter.
+2. Press Enter.
 
     If you have set up correctly, you should see a message that starts with `Done: Processed 1 article` 
 
 3. Type the command `pip install ghp-import`.
 
-4. Press enter.
+4. Press Enter.
 
-5. Type this command `python -m ghp_import output -b gh-pages` and press enter.
+5. Type this command `python -m ghp_import output -b gh-pages`.
 
-6. Type this command `git push origin gh-pages` and press enter.
+6. Press Enter.
 
-7. **ctrl + Click** on the link generated in the command prompt output to view your repository.
+7. Type this command `git push origin gh-pages`. 
 
-8. Click the hyperlink on the right hand side called **"github-pages** under deployment.  
+8. Press Enter.
 
-9. Click on the first link and it will take you to your live resume webpage ! 
+9. **ctrl + Click** on the link generated in the command prompt output to view your repository.
+
+10. Click the hyperlink on the right hand side called **"github-pages** under deployment.  
+
+11. Click on the first link and it will take you to your live resume webpage ! 
 
 ## Conclusion
 
@@ -163,13 +169,13 @@ Congratulations Marvin! Through this process, you have transitioned from a tradi
 
 **You can explore more resources on the topic below:**
 
-1. Learn more about the Github-flavoured Markdown Andrew Etter briefly mentioned in his book, [here](https://github.github.com/gfm/#list-items).
+1. Learn more about the Github-flavoured Markdown Andrew Etter briefly mentioned in his book, [here](https://github.github.com/gfm/).
 
 2. Watch this [tutorial](https://www.youtube.com/watch?v=_PPWWRV6gbA) for more clarity on Markdown.
 
 3. Learn more about GitHub and how to manage repositories [here](https://learn.github.com/skills).
 
-4. Learn about this other lightweight markup language, [Ascii](https://docs.asciidoctor.org/asciidoc/latest/).
+4. Learn about this other Lightweight Markup Language, [Ascii](https://docs.asciidoctor.org/asciidoc/latest/).
 
 5. Learn how to use Rsync with this [video](https://youtu.be/Pygr_TpZRpM?si=-xrqRa7-zi5ce6vr).
 
@@ -178,11 +184,11 @@ Congratulations Marvin! Through this process, you have transitioned from a tradi
 
 **Q: Why is Markdown Better than writing raw HTML?**
 
-A: Andrew Etter argues that Lightweight Markup is Superior using an example of Ascii and DocBox. The DockBox content is challenging to read with human eyes because of the amount of syntax involved. The same situation applies to HTML and Markdown. Markdown is better than writing raw HTML because Markdown is easier to read in raw form compared to HTML. This makes it easier for people to contribute to documentation like Etter encourages.
+A: Andrew Etter argues that Lightweight Markup is Superior using an example of Ascii and DocBox. The DockBox content is challenging to read with human eyes because of the amount of syntax involved. The same situation applies to HTML and Markdown. Markdown is better than writing raw HTML because Markdown is easier to read in raw form compared to HTML. This makes it easier for people to contribute to documentation, Etter informs us that this leads to richer, higher quality documentation.
 
 **Q: I changed the Markdown version of my resume, so why don't I see the changes when I refresh the website in my browser?**
 
-A: This happens because even though you've updated the file locally, you haven't told Pelican to implement these changes in your output files. To see the changes, you must redo the steps in section 5 of this README.
+A: This happens because even though you've updated the file on your computer, you haven't told Pelican to implement these changes in your output files. To see the changes, you must redo the steps in section 5 of this README.
 
 ### Credits
 
