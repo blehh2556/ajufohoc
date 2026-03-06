@@ -13,14 +13,13 @@ Canadian Citizen | ajufohoc@myumanitoba.ca | (431)-293-2031 | [LinkedIn](https:/
 **University of Manitoba**
 
 B.S. in Computer Science with minor in management 
-<ul>
 
 - Related Coursework: Object-oriented programming, Statistics & Applications,  Algorithms for numerical processing, statistical analysis and matrix operations, Data Structures & Algorithms, memory management & performance.
 
 - President’s Scholar - Entrance with a 97% cumulative average (renewable).
 
 - Tier 1 - Queen Elizabeth II Entrance Scholarship.
-</ul>
+
 
 #### EXPERIENCE
 ----
