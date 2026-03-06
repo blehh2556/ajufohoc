@@ -2,7 +2,7 @@
 # How to publish your Resume Using Markdown, Github and Pelican
 
 ## Statement of Purpose
-This document serves as a comprehensive guide for you, Marvin McLaren, to help you publish a resume as a static website using tools like Markdown(a lightweight markup language), Pelican(a static site generator) and Github(a forge). 
+This document serves as a comprehensive guide for you, Marvin McLaren, to help you publish a resume as a static website using tools like Markdown (a lightweight markup language), Pelican(a static site generator) and Github(a forge). 
 
 By following these intructions, you will learn to separate your content (the resume) from its presentation (the website), ensuring your professional data is secure, portable, and easily updated.
 
