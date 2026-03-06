@@ -10,6 +10,7 @@ Canadian Citizen | ajufohoc@myumanitoba.ca | (431)-293-2031 | [LinkedIn](https:/
 
 #### EDUCATION
 ----
+
 **University of Manitoba**
 
 B.S. in Computer Science with minor in management 
@@ -34,15 +35,17 @@ Kode With Klossy Instructor Assistant \(Mar 2025 - Aug 2025\)
 - Assisted instructors \(certified educators\) with student coordination and creating an inclusive and fun learning environment. 
 
 
-
 **Affirmation Nation** 
 
 Founder, Game Developer, Content Creator \(Aug 2024- Present\)
 
 -  Went through North Forge Basecamp programming to create a business model around the game.
 - Received a $2500 grant from the National Bank in partnership with Enactus to fund development of the game. 
+
 - Building Affirmation Nation, a cozy RPG that uses daily affirmations as a core progression and world-building mechanics to improve players' mental resilience.
+
 - Developing the game using Godot and GDScript, designing systems for character levelling, world expansion, and player interaction.
+
 - Designed an affirmation-based points system where users level up by completing three daily affirmations.
 
 #### PROJECTS
@@ -53,8 +56,11 @@ Founder, Game Developer, Content Creator \(Aug 2024- Present\)
 Founder, Web Developer, Game Developer \(Jun 2023 - Jan 2025\)
 
 - Delivered a compelling pitch for safe space and Affirmation Nation to an audience of 1000+ innovators, garnering positive feedback and constructive criticism from various industry experts.
+
 - Developed an anonymous mental health platform aimed at bettering Teen Mental Health through conventional \(resources database, chat rooms, music playlist, poetry pages\)  and unconventional \(affirmation-based community game\) means
+
 - Engineered a robust mental health platform using Next.js and React.js, integrating Supabase for real-time data management, resulting in seamless user experiences for 20 concurrent users.
+
 - Got accepted into the Girl in Bloom Ambassador program and led a team of 4  members in executing a sustainable social impact, receiving funding from The Bloom Africa, with the mentorship of Ms Tosin Durotoye.
 
 #### SKILLS	

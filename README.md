@@ -136,7 +136,19 @@ To transform your text into a website, you need an engine. We will use Python. P
 
 Congratulations Marvin! Through this process, you have transitioned from a traditional document creator to a modern technical communicator by mastering the "Docs-as-Code" workflow. You learned to implement Andrew Etter’s core principles by using Lightweight Markup (Markdown) to decouple content from design, ensuring your professional data is portable and clean. By utilizing Pelican, you has moved away from complex, dynamic site builders toward a Static Site approach that prioritizes security and speed. Most importantly, you learned to use a Forge (GitHub) as a professional safety net, adopting Distributed Version Control to ensure your work is versioned, protected, and easily "discoverable". 
 
+**You can explore more resources on the topic below:**
+
 ### Frequently Asked Questions 
 
-Credit 
-Peter Vu helped me trouble shoot virtual environments and pelican for windows 
+**Q: Why is Markdown Better than writing raw HTML?**
+
+A: According to Andrew Etter in his book *Modern Technical Writing*, you should use Markdown 
+
+**Q: Why is Markdown Better than writing raw HTML?**
+
+
+### Credits
+
+- Chinyere Ajufoh-Obi - Author 
+
+- Chika Ngele - Class Groupmate
