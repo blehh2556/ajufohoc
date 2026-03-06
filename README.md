@@ -63,9 +63,9 @@ Now that your tech stack is ready, you can draft your resume. Following Etter’
 
 5. Preview Your Work: Press ` Ctrl + Shift + V` in VS Code. This opens a split-screen preview so you can see your formatting in real-time.
 
-6. Push your work to the forge by going into Github desktop and committing any changes to main.
+6. After saving in markdown, push your work to the forge by going into Github desktop and committing any changes to main.
 
-7. On the right hand side press the blue button 
+7. On the right hand side click the blue button that says **push to origin** to send it to github online.
 
 ## Section 3: Setting up a Virtual Environment 
 But before we can work with Python and Pelican we need to set up a virtual environment using these steps: 
@@ -73,9 +73,13 @@ But before we can work with Python and Pelican we need to set up a virtual envir
 1. Open Command Prompt. 
 
 2.Type: `cd C:\yourFolderName` 
+
 3. Type in this code and press enter :<br>`python -m venv .venv `
+
 4. Next, type in this code and press enter :<br> `.venv\Scripts\activate ` 
+
 5. You will know you're successful if `(.venv)` is now infront of your directory like this <br>` (.venv) C:\Users\chiny>`
+
 6. Now your virtual environment is set up. Do not exit your command prompt window and proceed to the next steps. 
 
 ## Section 4: Setting Up Pelican
