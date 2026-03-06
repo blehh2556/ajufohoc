@@ -7,7 +7,7 @@ This document serves as a comprehensive guide for you, Marvin McLaren, to help y
 By following these intructions, you will learn to separate your content (the resume) from its presentation (the website), ensuring your professional data is secure, portable, and easily updated.
 
 ### Pre-Requisites
-To successfully host your resume you need: 
+To successfully publish your resume on the web you will need: 
 1. A computer that uses a **Windows 10** system and above. 
 
 2. A **Github** Account-  Create one with this link[Link](https://github.com/signup)
@@ -25,7 +25,7 @@ To successfully host your resume you need:
 
 ## Section 1: Creating and Syncing your repository 
 
-Before we begin to write markdown code we need to create a structure that will hold all our work. In this section we will create a folder on our computer and link that to our github repository in a way that will allow us to sync local changes with those on the web in github.
+Before we begin to write markdown code we need to create a structure that will hold all our work. In this section we will create a github repository and link it to a folder on our computer in a way that will allow us to sync local changes with those on our forge on the web.
 
 **Part A: Create the Github Repository**
 
@@ -66,46 +66,48 @@ Now that your tech stack is ready, you can draft your resume. Following Etter’
 
 2. Create a new File call it **Resume.md**
 
-3. Think of Metadata as the "ID Badge" for your file. It helps Pelican turn your Resume from a file to a website. 
+3. Type the code below at the very top of your resume.md file:
 
-At the very top of your resume.md file type this:
-<pre><code>
-Title: Professional Resume
-Date: 2026-03-05
-Save_as: index.html`
-</code></pre>
+    <pre><code>
+    Title: Professional Resume
+    Date: 2026-03-05
+    Save_as: index.html`
+    </code></pre>
 
+    *The code above is Metadata. Think of Metadata as the "ID Badge" for your file. It helps Pelican turn your Resume from a file to a website.*
 
-4. Type in your work experience using the necessary markdown formatting guides on this [Page](https://www.markdownguide.org/basic-syntax/) 
+4. Type in your Resume using the necessary markdown formatting guides on this [Page](https://www.markdownguide.org/basic-syntax/) 
 
-5. An important note is to be consistent with your heading sizes for each section. if you have an Education section with Heading Level 2 , Your work experience should also be level 2
+    *An important note is to be consistent with your heading sizes for each section. if you have an Education section with Heading Level 2 , Your work experience should also be level 2*
 
-6. Preview Your Work: Press ` Ctrl + Shift + V` in VS Code. This opens a split-screen preview so you can see your formatting in real-time.
+5. Preview Your Work: Press ` Ctrl + Shift + V` in VS Code. This opens a split-screen preview so you can see your formatting in real-time.
 
-7. After saving in markdown, push your work to the forge by going into Github desktop and committing any changes to main.
+6. Save your work. 
 
-8. On the right hand side click the blue button that says **push to origin** to send it to github online.
+7. Push it to the forge by going into Github desktop and committing any changes to main.
 
-**Note**: As you make changes, Andrew Etter recommends you push to your forge frequently to help you catch problems.
+8. Cick the blue button that says **push to origin** on the right hand side of the page, to send it to github.
+
+    **Note**: As you make changes, Andrew Etter recommends you push to your forge frequently to help you catch problems.
 
 ## Section 3: Setting up a Virtual Environment 
 But before we can work with Python and Pelican we need to set up a virtual environment using these steps: 
 
 1. Open Command Prompt. 
 
-2.Type: `cd C:\yourFolderName` 
+2. Type: `cd C:\yourFolderName` 
 
 3. Type in this code and press enter :<br>`python -m venv .venv `
 
 4. Next, type in this code and press enter :<br> `.venv\Scripts\activate ` 
 
-5. You will know you're successful if `(.venv)` is now infront of your directory like this <br>` (.venv) C:\Users\chiny>`
+5. After steps 1-4, you will know you're successful if `(.venv)` is now infront of your directory like this <br>` (.venv) C:\Users\chiny>`
 
 6. Now your virtual environment is set up. Do not exit your command prompt window and proceed to the next steps. 
 
 ## Section 4: Setting Up Pelican
 
-To transform your text into a website, you need an engine. We will use Python. Python allows us to run the Pelican generator, which handles all the heavy lifting of web design for you. 
+To transform your text into a website, you need an engine. We will use Python. Python allows us to run the Pelican generator, which handles all the heavy lifting of web design for you, allowing you to turn simple lightweight markup language to a website. 
 
 1. In your opened command prompt type in this code to install oelican and markdown :<br> ` python -m pip install "pelican[markdown]"`
 
@@ -136,13 +138,13 @@ To transform your text into a website, you need an engine. We will use Python. P
 
 ## Conclusion
 
-Congratulations Marvin! Through this process, you have transitioned from a traditional document creator to a modern technical communicator by mastering the "Docs-as-Code" workflow. You learned to implement Andrew Etter’s core principles by using Lightweight Markup (Markdown) to decouple content from design, ensuring your professional data is portable and clean. By utilizing Pelican, you has moved away from complex, dynamic site builders toward a Static Site approach that prioritizes security and speed. Most importantly, you learned to use a Forge (GitHub) as a professional safety net, adopting Distributed Version Control to ensure your work is versioned, protected, and easily "discoverable". 
+Congratulations Marvin! Through this process, you have transitioned from a traditional document creator to a modern technical communicator by mastering the "Docs-as-Code" workflow. You learned to implement Andrew Etter’s core principles by using Lightweight Markup (Markdown) to decouple content from design, ensuring your professional data is portable and clean. By utilizing Pelican, you have moved away from complex, dynamic site builders toward a Static Site approach that prioritizes security and speed. Most importantly, you learned to use a Forge (GitHub) as a  safety net, adopting distributed version control to ensure your work is up-to-date, protected, and easily discoverable on the web. 
 
 **You can explore more resources on the topic below:**
 
-1. Learn more about the github flavoured markdown Andrew Etter breifly mentioned in his book [here](https://github.github.com/gfm/#list-items).
+1. Learn more about the Github flavoured Markdown Andrew Etter breifly mentioned in his book, [here](https://github.github.com/gfm/#list-items).
 
-2. Learn more about github and how to manage repositories  [here](https://learn.github.com/skills).
+2. Learn more about github and how to manage repositories [here](https://learn.github.com/skills).
 
 3. Learn about this other lightweight markup language, [Ascii](https://docs.asciidoctor.org/asciidoc/latest/).
 
@@ -154,11 +156,11 @@ Congratulations Marvin! Through this process, you have transitioned from a tradi
 **Q: Why is Markdown Better than writing raw HTML?**
 
 
-A: Markdown is better than raw HTML because Markdown is easier to read in raw form compared to HTML and it makes it easier for people to understand and contribute to documentation.
+A: Markdown is better than writing raw HTML because Markdown is easier to read in raw form compared to HTML. This makes it easier for people to understand and contribute to documentation.
 
 **Q: I changed the Markdown version of my resume, so why don't I see the canges when I refresh the website in my browser?**
 
-A: This happens because even though you've updated the file locally you haven't told Pelican to implement these changes in your output files. To do this you must re-do the steps in section 5.
+A: This happens because even though you've updated the file locally you haven't told Pelican to implement these changes in your output files. To see the changes you must re-do the steps in section 5 oof this README.
 
 ### Credits
 
