@@ -1,7 +1,7 @@
 # How to publish your Resume Using Markdown, Github and Pelican
 
 ## Statement of Purpose
-This document serves as a comprehensive guide for you, Marvin McLaren, to help you publish a resume as a static website using tools like Markdown (a lightweight markup language), Pelican(a static site generator) and Github(a forge). 
+This document serves as a comprehensive guide for you, Marvin McLaren, to help you publish a resume as a static website using tools like Markdown (a lightweight markup language), Pelican(a static site generator) and GitHub(a forge). 
 
 By following these instructions, you will learn to separate your content (the resume) from its presentation (the website), ensuring your professional data is secure, portable, and easily updated.
 
@@ -9,7 +9,7 @@ By following these instructions, you will learn to separate your content (the re
 To successfully publish your resume on the web you will need: 
 1. A computer that uses a **Windows 10** system and above. 
 
-2. A **Github** Account-  Create one with this link[Link](https://github.com/signup)
+2. A **GitHub** Account-  Create one with this link[Link](https://github.com/signup)
 
 3. **Visual Studio Code** - install [here](https://code.visualstudio.com/download). Make sure to click on the button that says *Windows*.
 
@@ -24,7 +24,7 @@ To successfully publish your resume on the web you will need:
 
 ## Section 1: Creating and Syncing your repository 
 
-Before we begin to write markdown code we need to create a structure that will hold all our work. In this section we will create a github repository and link it to a folder on our computer in a way that will allow us to sync local changes with those on our forge on the web.
+Before we begin to write markdown code we need to create a structure that will hold all our work. In this section we will create a GitHub repository and link it to a folder on our computer in a way that will allow us to sync local changes with those on GitHub web.
 
 **Part A: Create the Github Repository**
 
@@ -32,7 +32,7 @@ Before we begin to write markdown code we need to create a structure that will h
 
 2. Click the "+" icon in the top-right corner. 
 
-3. select "New repository" from the dropdown menu.
+3. Select "New repository" from the dropdown menu.
 
 4. Name your repository (e.g., ajufohoc).
 
@@ -44,7 +44,7 @@ Before we begin to write markdown code we need to create a structure that will h
 
 **Part B: Connecting your online repository to your local machine**
 
-After completing part A you have created a new repository on the screen you should see a single README file. Now that the "cloud" version exists, we need to bring it down to your computer.
+After completing part A, you have created a new repository. On the screen you should see a single README file. Now that the "cloud" version exists, we need to bring it down to your computer.
 
 1. Sign into the same Github account on Github Desktop.
 
@@ -52,11 +52,11 @@ After completing part A you have created a new repository on the screen you shou
 
 3. Select **Clone Repository**
 
-4. Select the repository you created from part A from the list.  
+4. Select the repository you created in part A from the list.  
 
 5. Click **choose** under "Local Path."
 
-6.  Navigate to **This PC > Windows (C:)**.
+6. Navigate to **This PC > Windows (C:)**.
 
 7. Press **clone**.
 
@@ -95,20 +95,24 @@ Now that your tech stack is ready, you can draft your resume. Following Etter’
 
 8. Cick the blue button that says **push to origin** on the right hand side of the page, to send it to github.
 
-    **Note**: As you make changes, Andrew Etter recommends you push to your forge frequently to help you catch problems.
+    **Note**: As you make changes to your file, Andrew Etter recommends you push to your forge(GitHub) frequently. This is helpful if you need to go back to previous versions or encounter errors. 
 
 ## Section 3: Setting up a Virtual Environment 
-But before we can work with Python and Pelican we need to set up a virtual environment using these steps: 
+Before we can work with Python and Pelican we need to set up a virtual environment using these steps: 
 
 1. Open Command Prompt. 
 
 2. Type: `cd C:\yourFolderName` 
 
-3. Type in this code and press enter :<br>`python -m venv .venv `
+3. Type in this code :<br>`python -m venv .venv `
 
-4. Type in this code and press enter :<br> `.venv\Scripts\activate ` 
+4. Press Enter.
 
-    After steps 1-4, you will know you're successful if `(.venv)` is now in front of your directory like this <br>` (.venv) C:\Users\chiny>`
+5. Type in this code :<br> `.venv\Scripts\activate ` 
+
+6. Press Enter.
+
+    After steps 1-5, you will know you're successful if `(.venv)` is now in front of your directory. E.g:  <br>` (.venv) C:\Users\chiny>`
 
     Now your virtual environment is set up. Do not exit your command prompt window and proceed to the next steps. 
 
@@ -118,32 +122,38 @@ To transform your text into a website, you need an engine. We will use Python. P
 
 1. Type in this code to install pelican and markdown in command prompt:<br> ` python -m pip install "pelican[markdown]"`
 
-2. Run the command ` pelican-quickstart` and follow the prompts on the screen. Press the Enter key to pick the default selections. 
+2. Type the command ` pelican-quickstart` 
 
-    Pelican has now created  several folders including one called **content**
+3. Press Enter.
 
-3. Move your **Resume.md** file into the new **content** folder in file Explorer. 
+4. Follow the prompts on the screen. Press the Enter key to pick the default selections. 
+
+    At the end of this process, Pelican has now created  several folders including one called **content**
+
+3. Move your **Resume.md** file into the new **content** folder in your file Explorer. 
 
 
 ## Section 5: Publishing your Webpage
 
-Now that Pelican is set up we can publish our webpage
+Now that Pelican is set up we can publish our webpage.
 
-1. Type `pelican content` and press enter.
+1. Type `pelican content` 
+
+2. Press enter.
 
     If you have set up correctly you should see a message that starts with `Done: Processed 1 article` 
 
-2. Type the command `pip install ghp-import` and press enter.
+3. Type the command `pip install ghp-import` and press enter.
 
-3. Type this command `python -m ghp_import output -b gh-pages` and press enter.
+4. Type this command `python -m ghp_import output -b gh-pages` and press enter.
 
-4. Type this command `git push origin gh-pages` and press enter.
+5. Type this command `git push origin gh-pages` and press enter.
 
-5. **ctrl + Click** on the link generated in the command prompt output to view your repository.
+6. **ctrl + Click** on the link generated in the command prompt output to view your repository.
 
-6. Click the hyperlink on the right hand side called **"github-pages** under deployment.  
+7. Click the hyperlink on the right hand side called **"github-pages** under deployment.  
 
-7. Click on the first link and it will take you to your live resume webpage ! 
+8. Click on the first link and it will take you to your live resume webpage ! 
 
 ## Conclusion
 
@@ -153,26 +163,29 @@ Congratulations Marvin! Through this process, you have transitioned from a tradi
 
 1. Learn more about the Github flavoured Markdown Andrew Etter briefly mentioned in his book, [here](https://github.github.com/gfm/#list-items).
 
-2. Learn more about github and how to manage repositories [here](https://learn.github.com/skills).
+2. Watch this [tutorial](https://www.youtube.com/watch?v=_PPWWRV6gbA) for more clarity on Markdown.
 
-3. Learn about this other lightweight markup language, [Ascii](https://docs.asciidoctor.org/asciidoc/latest/).
+3. Learn more about GitHub and how to manage repositories [here](https://learn.github.com/skills).
 
-4. Learn how to use Rsync with this [video](https://youtu.be/Pygr_TpZRpM?si=-xrqRa7-zi5ce6vr).
+4. Learn about this other lightweight markup language, [Ascii](https://docs.asciidoctor.org/asciidoc/latest/).
+
+5. Learn how to use Rsync with this [video](https://youtu.be/Pygr_TpZRpM?si=-xrqRa7-zi5ce6vr).
 
 
 ## Frequently Asked Questions 
 
 **Q: Why is Markdown Better than writing raw HTML?**
 
+A: Andrew Etter argues that Lightweight Markup is Superior using an example of Ascii and DocBox. The DockBox content is challenging to read with human eyes becuse of the amount of syntax involved. The same situation applies to HTML and Markdown. Markdown is better than writing raw HTML because Markdown is easier to read in raw form compared to HTML which has more syntax.
 
-A: Markdown is better than writing raw HTML because Markdown is easier to read in raw form compared to HTML. This makes it easier for people to understand and contribute to documentation.
+**Q: I changed the Markdown version of my resume, so why don't I see the changes when I refresh the website in my browser?**
 
-**Q: I changed the Markdown version of my resume, so why don't I see the canges when I refresh the website in my browser?**
-
-A: This happens because even though you've updated the file locally you haven't told Pelican to implement these changes in your output files. To see the changes you must re-do the steps in section 5 oof this README.
+A: This happens because even though you've updated the file locally you haven't told Pelican to implement these changes in your output files. To see the changes you must re-do the steps in section 5 of this README.
 
 ### Credits
 
-- Chinyere Ajufoh-Obi - Author 
+- Chinyere Ajufoh-Obi  
 
-- Chika Ngene - Class Groupmate
+- Chika Ngene - Peer Reviewer
+
+- Andrew Etter, *Modern Technical Writing*
