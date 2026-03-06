@@ -9,13 +9,13 @@ By following these instructions, you will learn to separate your content (the re
 To successfully publish your resume on the web you will need: 
 1. A computer that uses a **Windows 10** system and above. 
 
-2. A **GitHub** Account-  Create one with this link[Link](https://github.com/signup)
+2. A **GitHub** Account-  Create one with this [Link](https://github.com/signup)
 
-3. **Visual Studio Code** - install [here](https://code.visualstudio.com/download). Make sure to click on the button that says *Windows*.
+3. **Visual Studio Code** - install [here](https://code.visualstudio.com/download). Click the *"Windows"* button.
 
 4. **Git for Windows** - install [here](https://git-scm.com/install/windows)
 
-5. **Python 3.10+** - Install [here](https://git-scm.com/install/windows). **CRITICAL** Check the box "Add Python to PATH" during installation.
+5. **Python 3.10+** - Install [here](https://git-scm.com/install/windows). **CRITICAL**: Check the box "Add Python to PATH" during installation.
 
 6. **Github Desktop** - Install [here](https://desktop.github.com/download/).
 
@@ -65,7 +65,7 @@ After completing part A, you have created a new repository. On the screen you sh
 
 ## Section 2: Formatting Your Resume in Markdown
 
-Now that your tech stack is ready, you can draft your resume. Following Etter’s advice, we use Markdown to define what the information is (a header, a list, a link) rather than how it looks (font size, color, margins). We also opt for Markdown over Microsoft word because like Etter explains it gets complicated to deploy websites using Word and word and pdf aren't effective for multiple changes. 
+Now that your tech stack is ready, you can draft your resume. Following Etter’s advice, we use Markdown to define what the information is (a header, a list, a link) rather than how it looks (font size, color, margins). We also opt for Markdown over Microsoft Word because like Etter explains it gets complicated to deploy websites using Word as word and pdf aren't as effective for multiple changes and living documentation. 
 
 1. Open VS Code. 
 
