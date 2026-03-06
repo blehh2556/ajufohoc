@@ -190,4 +190,6 @@ A: This happens because even though you've updated the file locally, you haven't
 
 - Chika Ngene - Peer Reviewer
 
+- Paul Watuwa - Peer Reviewer
+
 - Andrew Etter, *Modern Technical Writing*
