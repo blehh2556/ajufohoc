@@ -63,6 +63,10 @@ Now that your tech stack is ready, you can draft your resume. Following Etter’
 
 5. Preview Your Work: Press ` Ctrl + Shift + V` in VS Code. This opens a split-screen preview so you can see your formatting in real-time.
 
+6. Push your work to the forge by going into Github desktop and committing any changes to main.
+
+7. On the right hand side press the blue button 
+
 ## Section 3: Setting up a Virtual Environment 
 But before we can work with Python and Pelican we need to set up a virtual environment using these steps: 
 
