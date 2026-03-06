@@ -6,7 +6,7 @@ This document serves as a comprehensive guide for you, Marvin McLaren, to help y
 By following these instructions, you will learn to separate your content (the resume) from its presentation (the website), ensuring your professional data is secure, portable, and easily updated.
 
 ### Pre-Requisites
-To successfully publish your resume on the web you will need: 
+To successfully publish your resume on the web, you will need: 
 1. A computer that uses a **Windows 10** system and above. 
 
 2. A **GitHub** Account-  Create one with this [Link](https://github.com/signup)
@@ -24,9 +24,9 @@ To successfully publish your resume on the web you will need:
 
 ## Section 1: Creating and Syncing your repository 
 
-Before we begin to write markdown code we need to create a structure that will hold all our work. In this section we will create a GitHub repository and link it to a folder on our computer in a way that will allow us to sync local changes with those on GitHub web.
+Before we begin to write markdown code, we need to create a structure that will hold all our work. In this section, we will create a GitHub repository and link it to a folder on our computer in a way that will allow us to sync local changes with those on GitHub web.
 
-**Part A: Create the Github Repository**
+**Part A: Create the GitHub Repository**
 
 1. Log in to your GitHub account.
 
@@ -44,11 +44,11 @@ Before we begin to write markdown code we need to create a structure that will h
 
 **Part B: Connecting your online repository to your local machine**
 
-After completing part A, you have created a new repository. On the screen you should see a single README file. Now that the "cloud" version exists, we need to bring it down to your computer.
+After completing part A, you have created a new repository. On the screen, you should see a single README file. Now that the "cloud" version exists, we need to bring it down to your computer.
 
 1. Sign into the same Github account on Github Desktop.
 
-2. Select **File** In the top left corner. 
+2. Select **File** in the top left corner. 
 
 3. Select **Clone Repository**
 
@@ -65,7 +65,7 @@ After completing part A, you have created a new repository. On the screen you sh
 
 ## Section 2: Formatting Your Resume in Markdown
 
-Now that your tech stack is ready, you can draft your resume. Following Etter’s advice, we use Markdown to define what the information is (a header, a list, a link) rather than how it looks (font size, color, margins). We also opt for Markdown over Microsoft Word because like Etter explains it gets complicated to deploy websites using Word as word and pdf aren't as effective for multiple changes and living documentation. 
+Now that your tech stack is ready, you can draft your resume. Following Etter’s advice, we use Markdown to define what the information is (a header, a list, a link) rather than how it looks (font size, colour, margins). We also opt for Markdown over Microsoft Word because like Etter explains, it gets complicated to deploy websites using Word, as word and pdf aren't as effective for multiple changes and living documentation. 
 
 1. Open VS Code. 
 
@@ -85,36 +85,36 @@ Now that your tech stack is ready, you can draft your resume. Following Etter’
 
 4. Type in your Resume using the necessary markdown formatting guides on this [Page](https://www.markdownguide.org/basic-syntax/) 
 
-    *An important note is to be consistent with your heading sizes for each section. If you have an Education section with Heading Level 2 , Your work experience should also be level 2*
+    *An important note is to be consistent with your heading sizes for each section. If you have an Education section with Heading Level 2 , your work experience should also be level 2*
 
 5.  Press ` Ctrl + Shift + V` in VS Code. This opens a split-screen preview so you can see your formatting in real-time.
 
 6. Save your work regularly. 
 
-7. Press the blue **commit to main** button in the Github Desktop app to update the changes you've made so far. .
+7. Press the blue **commit to main** button in the GitHub Desktop app to update the changes you've made so far.
 
-8. Cick the blue button that says **push to origin** on the right hand side of the page, to send it to github.
+8. Cick the blue button that says **push to origin** on the right-hand side of the page, to send it to GitHub.
 
     **Note**: As you make changes to your file, Andrew Etter recommends you push to your forge(GitHub) frequently. This is helpful if you need to go back to previous versions or encounter errors. 
 
 ## Section 3: Setting up a Virtual Environment 
-Before we can work with Python and Pelican we need to set up a virtual environment using these steps: 
+Before we can work with Python and Pelican, we need to set up a virtual environment using these steps: 
 
 1. Open Command Prompt. 
 
 2. Type: `cd C:\yourFolderName` 
 
-3. Type in this code :<br>`python -m venv .venv `
+3. Type in this code:<br>`python -m venv .venv `
 
 4. Press Enter.
 
-5. Type in this code :<br> `.venv\Scripts\activate ` 
+5. Type in this code:<br> `.venv\Scripts\activate ` 
 
 6. Press Enter.
 
     After steps 1-5, you will know you're successful if `(.venv)` is now in front of your directory. E.g:  <br>` (.venv) C:\Users\chiny>`
 
-    Now your virtual environment is set up. Do not exit your command prompt window and proceed to the next steps. 
+    Now your virtual environment is set up. Do not exit your command prompt window and proceed to the next section.
 
 ## Section 4: Setting Up Pelican
 
@@ -128,7 +128,7 @@ To transform your text into a website, you need an engine. We will use Python. P
 
 4. Follow the prompts on the screen. Press the Enter key to pick the default selections. 
 
-    At the end of this process, Pelican has now created  several folders including one called **content**
+    At the end of this process, Pelican has now created several folders, including one called **content**
 
 3. Move your **Resume.md** file into the new **content** folder in your file Explorer. 
 
@@ -141,27 +141,29 @@ Now that Pelican is set up we can publish our webpage.
 
 2. Press enter.
 
-    If you have set up correctly you should see a message that starts with `Done: Processed 1 article` 
+    If you have set up correctly, you should see a message that starts with `Done: Processed 1 article` 
 
-3. Type the command `pip install ghp-import` and press enter.
+3. Type the command `pip install ghp-import`.
 
-4. Type this command `python -m ghp_import output -b gh-pages` and press enter.
+4. Press enter.
 
-5. Type this command `git push origin gh-pages` and press enter.
+5. Type this command `python -m ghp_import output -b gh-pages` and press enter.
 
-6. **ctrl + Click** on the link generated in the command prompt output to view your repository.
+6. Type this command `git push origin gh-pages` and press enter.
 
-7. Click the hyperlink on the right hand side called **"github-pages** under deployment.  
+7. **ctrl + Click** on the link generated in the command prompt output to view your repository.
 
-8. Click on the first link and it will take you to your live resume webpage ! 
+8. Click the hyperlink on the right hand side called **"github-pages** under deployment.  
+
+9. Click on the first link and it will take you to your live resume webpage ! 
 
 ## Conclusion
 
-Congratulations Marvin! Through this process, you have transitioned from a traditional document creator to a modern technical communicator by mastering the "Docs-as-Code" workflow. You learned to implement Andrew Etter’s core principles by using Lightweight Markup (Markdown) to decouple content from design, ensuring your professional data is portable and clean. By utilizing Pelican, you have moved away from complex, dynamic site builders toward a Static Site approach that prioritizes security and speed. Most importantly, you learned to use a Forge (GitHub) as a  safety net, adopting distributed version control to ensure your work is up-to-date, protected, and easily discoverable on the web. 
+Congratulations Marvin! Through this process, you have transitioned from a traditional document creator to a modern technical communicator by mastering the "Docs-as-Code" workflow. You learned to implement Andrew Etter’s core principles by using Lightweight Markup (Markdown) to decouple content from design, ensuring your professional data is portable and clean. By utilising Pelican, you have moved away from complex, dynamic site builders toward a Static Site approach that prioritises security and speed. Most importantly, you learned to use a Forge (GitHub) as a safety net, adopting distributed version control to ensure your work is up-to-date, protected, and easily discoverable on the web. 
 
 **You can explore more resources on the topic below:**
 
-1. Learn more about the Github flavoured Markdown Andrew Etter briefly mentioned in his book, [here](https://github.github.com/gfm/#list-items).
+1. Learn more about the Github-flavoured Markdown Andrew Etter briefly mentioned in his book, [here](https://github.github.com/gfm/#list-items).
 
 2. Watch this [tutorial](https://www.youtube.com/watch?v=_PPWWRV6gbA) for more clarity on Markdown.
 
@@ -176,11 +178,11 @@ Congratulations Marvin! Through this process, you have transitioned from a tradi
 
 **Q: Why is Markdown Better than writing raw HTML?**
 
-A: Andrew Etter argues that Lightweight Markup is Superior using an example of Ascii and DocBox. The DockBox content is challenging to read with human eyes becuse of the amount of syntax involved. The same situation applies to HTML and Markdown. Markdown is better than writing raw HTML because Markdown is easier to read in raw form compared to HTML which has more syntax.
+A: Andrew Etter argues that Lightweight Markup is Superior using an example of Ascii and DocBox. The DockBox content is challenging to read with human eyes because of the amount of syntax involved. The same situation applies to HTML and Markdown. Markdown is better than writing raw HTML because Markdown is easier to read in raw form compared to HTML. This makes it easier for people to contribute to documentation like Etter encourages.
 
 **Q: I changed the Markdown version of my resume, so why don't I see the changes when I refresh the website in my browser?**
 
-A: This happens because even though you've updated the file locally you haven't told Pelican to implement these changes in your output files. To see the changes you must re-do the steps in section 5 of this README.
+A: This happens because even though you've updated the file locally, you haven't told Pelican to implement these changes in your output files. To see the changes, you must redo the steps in section 5 of this README.
 
 ### Credits
 
