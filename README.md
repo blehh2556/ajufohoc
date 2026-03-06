@@ -1,4 +1,3 @@
-
 # How to publish your Resume Using Markdown, Github and Pelican
 
 ## Statement of Purpose
@@ -68,11 +67,11 @@ Now that your tech stack is ready, you can draft your resume. Following Etter’
 
 3. Type the code below at the very top of your resume.md file:
 
-    <pre><code>
+    ```
     Title: Professional Resume
     Date: 2026-03-05
     Save_as: index.html`
-    </code></pre>
+    ```
 
     *The code above is Metadata. Think of Metadata as the "ID Badge" for your file. It helps Pelican turn your Resume from a file to a website.*
 
