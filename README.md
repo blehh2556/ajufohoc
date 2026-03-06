@@ -3,7 +3,7 @@
 ## Statement of Purpose
 This document serves as a comprehensive guide for you, Marvin McLaren, to help you publish a resume as a static website using tools like Markdown (a lightweight markup language), Pelican(a static site generator) and Github(a forge). 
 
-By following these intructions, you will learn to separate your content (the resume) from its presentation (the website), ensuring your professional data is secure, portable, and easily updated.
+By following these instructions, you will learn to separate your content (the resume) from its presentation (the website), ensuring your professional data is secure, portable, and easily updated.
 
 ### Pre-Requisites
 To successfully publish your resume on the web you will need: 
@@ -30,40 +30,48 @@ Before we begin to write markdown code we need to create a structure that will h
 
 1. Log in to your GitHub account.
 
-2. Click the "+" icon in the top-right corner and select "New repository."
+2. Click the "+" icon in the top-right corner. 
 
-3. Name your repository (e.g., ajufohoc).
+3. select "New repository" from the dropdown menu.
 
-4. Navigate to choose visibility and set it to Public. This is so Pelican can access it later.
+4. Name your repository (e.g., ajufohoc).
 
-5. Check the box that says *"Add a README file."* 
+5. Navigate to choose visibility and set it to Public. This is so Pelican can access it later.
 
-6. Scroll down and click "Create repository."
+6. Check the box that says *"Add a README file."* 
+
+7. Scroll down and click "Create repository."
 
 **Part B: Connecting your online repository to your local machine**
 
 After completing part A you have created a new repository on the screen you should see a single README file. Now that the "cloud" version exists, we need to bring it down to your computer.
 
-1. Open Github Desktop and sign in to the same Github account.
+1. Sign into the same Github account on Github Desktop.
 
-2. In the top left corner select File > Clone repository.
+2. Select **File** In the top left corner. 
 
-3. Select the repository you created from part A from the list.  
+3. Select **Clone Repository**
 
-4. Under "Local Path," click Choose. Navigate to This PC > Windows (C:).
+4. Select the repository you created from part A from the list.  
 
-5. Press clone.
+5. Click **choose** under "Local Path."
+
+6.  Navigate to **This PC > Windows (C:)**.
+
+7. Press **clone**.
 
 *Result: GitHub Desktop will create a folder on your computer that is "twinned" with the website.*
 
 
 ## Section 2: Formatting Your Resume in Markdown
 
-Now that your tech stack is ready, you can draft your resume. Following Etter’s advice, we use Markdown to define what the information is (a header, a list, a link) rather than how it looks (font size, color, margins). We also opt for Markdown over Microsoft word because like Etter explains it gets complicated to deploy websites using Word.
+Now that your tech stack is ready, you can draft your resume. Following Etter’s advice, we use Markdown to define what the information is (a header, a list, a link) rather than how it looks (font size, color, margins). We also opt for Markdown over Microsoft word because like Etter explains it gets complicated to deploy websites using Word and word and pdf aren't effective for multiple changes. 
 
-1. Open VS Code: Launch the app and open the project folder you created in Phase 1.
+1. Open VS Code. 
 
-2. Create a new File call it **Resume.md**
+2. Open the project folder you created in Section 1.
+
+3. Create a new File called **Resume.md**
 
 3. Type the code below at the very top of your resume.md file:
 
@@ -77,13 +85,13 @@ Now that your tech stack is ready, you can draft your resume. Following Etter’
 
 4. Type in your Resume using the necessary markdown formatting guides on this [Page](https://www.markdownguide.org/basic-syntax/) 
 
-    *An important note is to be consistent with your heading sizes for each section. if you have an Education section with Heading Level 2 , Your work experience should also be level 2*
+    *An important note is to be consistent with your heading sizes for each section. If you have an Education section with Heading Level 2 , Your work experience should also be level 2*
 
-5. Preview Your Work: Press ` Ctrl + Shift + V` in VS Code. This opens a split-screen preview so you can see your formatting in real-time.
+5.  Press ` Ctrl + Shift + V` in VS Code. This opens a split-screen preview so you can see your formatting in real-time.
 
-6. Save your work. 
+6. Save your work regularly. 
 
-7. Push it to the forge by going into Github desktop and committing any changes to main.
+7. Press the blue **commit to main** button in the Github Desktop app to update the changes you've made so far. .
 
 8. Cick the blue button that says **push to origin** on the right hand side of the page, to send it to github.
 
@@ -98,42 +106,44 @@ But before we can work with Python and Pelican we need to set up a virtual envir
 
 3. Type in this code and press enter :<br>`python -m venv .venv `
 
-4. Next, type in this code and press enter :<br> `.venv\Scripts\activate ` 
+4. Type in this code and press enter :<br> `.venv\Scripts\activate ` 
 
-5. After steps 1-4, you will know you're successful if `(.venv)` is now infront of your directory like this <br>` (.venv) C:\Users\chiny>`
+    After steps 1-4, you will know you're successful if `(.venv)` is now in front of your directory like this <br>` (.venv) C:\Users\chiny>`
 
-6. Now your virtual environment is set up. Do not exit your command prompt window and proceed to the next steps. 
+    Now your virtual environment is set up. Do not exit your command prompt window and proceed to the next steps. 
 
 ## Section 4: Setting Up Pelican
 
 To transform your text into a website, you need an engine. We will use Python. Python allows us to run the Pelican generator, which handles all the heavy lifting of web design for you, allowing you to turn simple lightweight markup language to a website. 
 
-1. In your opened command prompt type in this code to install oelican and markdown :<br> ` python -m pip install "pelican[markdown]"`
+1. Type in this code to install pelican and markdown in command prompt:<br> ` python -m pip install "pelican[markdown]"`
 
-2. Next run the command ` pelican-quickstart` and follow the prompts. 
+2. Run the command ` pelican-quickstart` and follow the prompts on the screen. Press the Enter key to pick the default selections. 
 
-3. Pelican has now created  several folders includeinf one called **content**
+    Pelican has now created  several folders including one called **content**
 
-4. In your file Explorer move your **Resume.md** file into the new **content** folder. 
+3. Move your **Resume.md** file into the new **content** folder in file Explorer. 
 
 
 ## Section 5: Publishing your Webpage
 
-1. Build the site: Type `pelican content`
+Now that Pelican is set up we can publish our webpage
+
+1. Type `pelican content` and press enter.
 
     If you have set up correctly you should see a message that starts with `Done: Processed 1 article` 
 
-2. Next Run the command `pip install ghp-import`
+2. Type the command `pip install ghp-import` and press enter.
 
-3. Then `python -m ghp_import output -b gh-pages`
+3. Type this command `python -m ghp_import output -b gh-pages` and press enter.
 
-4. And finally, `git push origin gh-pages`
+4. Type this command `git push origin gh-pages` and press enter.
 
-5. **ctrl + Click** on the link generated in the command prompt output to view your repository. (You can also view this via Github.com)
+5. **ctrl + Click** on the link generated in the command prompt output to view your repository.
 
-6. On the right hand side you should see **"github-pages** under deployment. Click that link. 
+6. Click the hyperlink on the right hand side called **"github-pages** under deployment.  
 
-7. On this page, click on the first link and it will take you to your live resume webpage ! 
+7. Click on the first link and it will take you to your live resume webpage ! 
 
 ## Conclusion
 
@@ -141,7 +151,7 @@ Congratulations Marvin! Through this process, you have transitioned from a tradi
 
 **You can explore more resources on the topic below:**
 
-1. Learn more about the Github flavoured Markdown Andrew Etter breifly mentioned in his book, [here](https://github.github.com/gfm/#list-items).
+1. Learn more about the Github flavoured Markdown Andrew Etter briefly mentioned in his book, [here](https://github.github.com/gfm/#list-items).
 
 2. Learn more about github and how to manage repositories [here](https://learn.github.com/skills).
 
